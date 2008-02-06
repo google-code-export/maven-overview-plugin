@@ -1,0 +1,83 @@
+Maven Overview Plugin.
+
+Generates overview graph of project dependencies.
+
+Mojo Attributes:
+
+    * Requires a Maven 2.0 project to execute.
+    * Automatically executes within the lifecycle phase: site
+
+
+Parameter Details
+
+artifactCollector
+
+Artifact collector, needed to resolve dependencies.
+
+    * Type: org.apache.maven.artifact.resolver.ArtifactCollector
+    * Required: No
+
+artifactFactory No Description.
+
+    * Type: org.apache.maven.artifact.factory.ArtifactFactory
+    * Required: No
+
+artifactMetadataSource No Description.
+
+    * Type: org.apache.maven.artifact.metadata.ArtifactMetadataSource
+    * Required: No
+
+dependencyTreeBuilder No Description.
+
+    * Type: org.apache.maven.shared.dependency.tree.DependencyTreeBuilder
+    * Required: No
+
+excludes Artifacts to be excluded. Regular expressions matching the full artifact designation.
+
+    * Type: java.lang.String
+    * Required: No
+    * Expression: ${excludes}
+
+height Rendered graph height in pixels.
+
+    * Type: int
+    * Required: No
+    * Expression: ${height}
+    * Default: 1200
+
+localRepository Local Maven repository.
+
+    * Type: org.apache.maven.artifact.repository.ArtifactRepository
+    * Required: No
+    * Expression: ${localRepository}
+
+project Maven Project. Default value: ${project}
+
+    * Type: org.apache.maven.project.MavenProject
+    * Required: No
+    * Expression: ${project}
+
+siteRenderer Generates the site report.
+
+    * Type: org.apache.maven.doxia.siterenderer.Renderer
+    * Required: No
+
+suppressedScopes Suppressed scopes. Scopes that are not supposed to be shown on graph as edge labels.
+
+    * Type: java.lang.String
+    * Required: No
+    * Expression: ${suppressedScopes}
+
+vertexFullLabel Should vertex name be full artifact ID.
+
+    * Type: boolean
+    * Required: No
+    * Expression: ${vertexFullLabel}
+    * Default: false
+
+width Rendered graph width in pixels.
+
+    * Type: int
+    * Required: No
+    * Expression: ${width}
+    * Default: 1200
