@@ -1,5 +1,5 @@
+#summary How to configure report
 #labels Phase-Deploy,Featured
-#How to configure report
 
 = Configuring report =
 
