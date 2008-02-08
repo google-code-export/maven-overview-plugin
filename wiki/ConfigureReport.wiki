@@ -6,15 +6,7 @@
 Once you finished installing plug-in add this to your pom.xml
 {{{
     <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-            </plugin>
+        ...
             <plugin>
                 <groupId>com.agilejava.maven.plugins</groupId>
                 <artifactId>maven-overview-plugin</artifactId>
@@ -24,6 +16,6 @@ Once you finished installing plug-in add this to your pom.xml
                     <suppressedScopes/>
                 </configuration>
             </plugin>
-        </plugins>
+        ...
     </reporting>
 }}}
