@@ -1,14 +1,16 @@
-Maven Overview Plugin.
+#summary Goal overview:overview
+
+= Maven Overview Plugin. =
 
 Generates overview graph of project dependencies.
 
-Mojo Attributes:
+= Mojo Attributes: =
 
     * Requires a Maven 2.0 project to execute.
     * Automatically executes within the lifecycle phase: site
 
 
-Parameter Details
+= Parameter Details =
 
 artifactCollector
 
