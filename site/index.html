@@ -9,7 +9,8 @@
 
 
 
-<html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Maven Overview Plugin - Introduction</title>
     <style type="text/css" media="all">
@@ -20,24 +21,24 @@
     <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
           <meta name="author" content="Hubert Iwaniuk" />
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-                            <?xml version="1.0" encoding="UTF-8"?>
+                                                    
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-                                <?xml version="1.0" encoding="UTF-8"?>
+                                                        
 <script type="text/javascript">_uacct = "UA-140879-1";
         urchinTracker();</script>
                     </head>
   <body class="composite">
     <div id="banner">
-                  <a href="http://maven.apache.org/plugins/../" id="bannerLeft">
+                  <a href="http://maven.apache.org/" id="bannerLeft">
     
                                     <img src="http://maven.apache.org/images/apache-maven-project-2.png" alt="" />
     
             </a>
-                          <span id="bannerRight">
+                        <a href="http://maven.apache.org/" id="bannerRight">
     
                                     <img src="http://maven.apache.org/images/maven-logo-2.gif" alt="" />
     
-            </span>
+            </a>
             <div class="clear">
         <hr/>
       </div>
@@ -48,37 +49,40 @@
 
   
     
+            
   
-  
+    
             <div class="xleft">
-        Last Published: 20 May 2008
+        Last Published: 2008-06-15
+                  &nbsp;| Version: 1.1-SNAPSHOT
                       </div>
-            <div class="xright">      <a href="http://www.apache.org/">Apache</a>
-          |
-          <a href="http://maven.apache.org/maven-1.x">Maven 1.x</a>
-          |
-          <a href="http://maven.apache.org/plugins/../">Maven 2.x</a>
-          |
-          <a href="http://maven.apache.org/plugins/">Maven 2.x Plugins</a>
-          |
-          <a href="http://maven.apache.org/continuum">Continuum</a>
-          |
-          <a href="http://maven.apache.org/scm">SCM</a>
-          |
-          <a href="http://maven.apache.org/wagon">Wagon</a>
-          |
-          <a href="http://maven.apache.org/jxr">JXR</a>
-          |
-          <a href="http://maven.apache.org/doxia">Doxia</a>
-          |
-          <a href="http://maven.apache.org/">Maven 2</a>
-          
+            <div class="xright">            <a href="http://www.apache.org/" class="externalLink">Apache</a>
+            |
+                <a href="http://maven.apache.org/maven-1.x" class="externalLink">Maven 1.x</a>
+            |
+                <a href="http://maven.apache.org/" class="externalLink">Maven 2.x</a>
+            |
+                <a href="http://maven.apache.org/plugins/" class="externalLink">Maven 2.x Plugins</a>
+            |
+                <a href="http://maven.apache.org/continuum" class="externalLink">Continuum</a>
+            |
+                <a href="http://maven.apache.org/scm" class="externalLink">SCM</a>
+            |
+                <a href="http://maven.apache.org/wagon" class="externalLink">Wagon</a>
+            |
+                <a href="http://maven.apache.org/jxr" class="externalLink">JXR</a>
+            |
+                <a href="http://maven.apache.org/doxia" class="externalLink">Doxia</a>
+            |
+                <a href="http://maven.apache.org/" class="externalLink">Maven 2</a>
+            
   
 
   
     
+            
   
-  
+    
   </div>
       <div class="clear">
         <hr/>
@@ -91,38 +95,37 @@
 
   
     
+            
   
-  
+    
                    <h5>Overview</h5>
-        <ul>
+            <ul>
               
     <li class="none">
               <strong>Introduction</strong>
         </li>
               
     <li class="none">
-              <a href="plugin-info.html">Goals</a>
-        </li>
+                    <a href="plugin-info.html">Goals</a>
+          </li>
               
     <li class="none">
-              <a href="usage.html">Usage</a>
-        </li>
+                    <a href="usage.html">Usage</a>
+          </li>
               
     <li class="none">
-              <a href="faq.html">FAQ</a>
-        </li>
+                    <a href="faq.html">FAQ</a>
+          </li>
           </ul>
-          <h5>Examples</h5>
-        <ul>
+              <h5>Examples</h5>
+            <ul>
               
     <li class="none">
-              <a href="examples/command.html">CommandLine</a>
-        </li>
+                    <a href="examples/command.html">CommandLine</a>
+          </li>
           </ul>
-          <ul>
-          </ul>
-          <h5>Project Documentation</h5>
-        <ul>
+                        <h5>Project Documentation</h5>
+            <ul>
               
                 
               
@@ -143,8 +146,8 @@
       
               
         <li class="collapsed">
-              <a href="project-info.html">Project Information</a>
-              </li>
+                    <a href="project-info.html">Project Information</a>
+                </li>
               
                 
               
@@ -165,10 +168,10 @@
       
               
         <li class="collapsed">
-              <a href="project-reports.html">Project Reports</a>
-              </li>
+                    <a href="project-reports.html">Project Reports</a>
+                </li>
           </ul>
-                                       <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
             <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
           </a>
                        
@@ -176,13 +179,31 @@
 
   
     
+            
   
-  
+    
         </div>
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <div class="section"><h2>Maven Overview Plugin</h2><p>A simple Maven plugin, creating a diagram of all dependencies. (The entire transitive closure.)</p><div class="section"><h3>Goals Overview</h3><p>The Overview Plugin has one goal:</p><ul><li><a href="overview-mojo.html">maven-overview-plugin:overview</a> Generates graph of project dependencies.</li></ul></div><div class="section"><h3>Usage</h3><p>Instructions on how to use the Plugin Name can be found <a href="usage.html">here</a>.</p></div><div class="section"><h3>Examples</h3><p>To see how to use plugin from command line go <a href="examples/command.html">here</a>.</p></div></div>
+        <div class="section"><h2>Maven Overview Plugin</h2>
+<p>A simple Maven plugin, creating a diagram of all dependencies. (The entire transitive closure.)</p>
+<div class="section"><h3>Goals Overview</h3>
+<p>The Overview Plugin has one goal:</p>
+<ul><li><a href="overview-mojo.html">maven-overview-plugin:overview</a>
+ Generates graph of project dependencies.</li>
+</ul>
+</div>
+<div class="section"><h3>Usage</h3>
+<p>Instructions on how to use the Plugin Name can be found <a href="usage.html">here</a>
+.</p>
+</div>
+<div class="section"><h3>Examples</h3>
+<p>To see how to use plugin from command line go <a href="examples/command.html">here</a>
+.</p>
+</div>
+</div>
+
       </div>
     </div>
     <div class="clear">
@@ -198,8 +219,9 @@
 
   
     
+            
   
-  
+    
   </div>
       <div class="clear">
         <hr/>
