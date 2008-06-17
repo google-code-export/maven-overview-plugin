@@ -3,7 +3,7 @@
 
 = Configuring report =
 
-Once you finished installing plug-in add this to your pom.xml
+Once you finished [http://maven-overview-plugin.googlecode.com/svn/site/usage.html installing] plug-in add this to your pom.xml
 {{{
     <reporting>
         ...
