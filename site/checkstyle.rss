@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>Maven Overview Plugin - Checkstyle report</title>
+    <link>http://code.google.com/p/maven-overview-plugin/</link>
+    <description>Maven Overview Plugin - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2008 Agile Java</copyright>
+    <item>
+      <title>File: 14,
+             Errors: 201,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>http://code.google.com/p/maven-overview-plugin//checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.package.html">com/agilejava/maven/plugins/overview/render/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexPaintFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexPaintFunction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.DependencyProcessor.java">com/agilejava/maven/plugins/overview/logic/DependencyProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  55
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.DependencyEdge.java">com/agilejava/maven/plugins/overview/vo/DependencyEdge.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.DependencyExtractor.java">com/agilejava/maven/plugins/overview/logic/DependencyExtractor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexShapeFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexShapeFunction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.MavenOverviewMojo.java">com/agilejava/maven/plugins/overview/MavenOverviewMojo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  39
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.package.html">com/agilejava/maven/plugins/overview/vo/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyEdgeStringer.java">com/agilejava/maven/plugins/overview/render/MyEdgeStringer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.package.html">com/agilejava/maven/plugins/overview/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.ArtifactVertex.java">com/agilejava/maven/plugins/overview/vo/ArtifactVertex.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexStringer.java">com/agilejava/maven/plugins/overview/render/MyVertexStringer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.MyArtifactFilter.java">com/agilejava/maven/plugins/overview/logic/MyArtifactFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.package.html">com/agilejava/maven/plugins/overview/logic/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+
