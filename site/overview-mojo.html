@@ -42,7 +42,7 @@
   
     
             <div class="xleft">
-        Last Published: 2008-06-30
+        Last Published: 2008-07-28
                       </div>
             <div class="xright">            <a href="http://maven.apache.org/" class="externalLink">Maven 2</a>
             
@@ -172,7 +172,7 @@
 overview:overview</h2>
 <p><strong>Note</strong>: This Mojo should be used as a Maven report.</p>
 <p><strong>Full name</strong>:</p>
-<p>com.agilejava.maven.plugins:maven-overview-plugin:1.1:overview</p>
+<p>com.agilejava.maven.plugins:maven-overview-plugin:1.2:overview</p>
 <p><strong>Description</strong>:</p>
 <p>Maven Overview Plugin. 
 
@@ -193,8 +193,10 @@ Optional Parameters</h3>
 </strong></td>
 <td><code>String</code></td>
 <td><code>-</code></td>
-<td>Artifacts to be excluded. Regular expressions matching the full
-artifact designation. </td>
+<td>IDs of artifact to be excluded. 
+
+<p></p>
+Coma separated list of excluded artifacts IDs. </td>
 </tr>
 <tr class="a"><td><strong><a href="#height">height</a>
 </strong></td>
@@ -202,19 +204,28 @@ artifact designation. </td>
 <td><code>-</code></td>
 <td>Rendered graph height in pixels. Default value is: <code>1200</code>.</td>
 </tr>
-<tr class="b"><td><strong><a href="#localRepository">localRepository</a>
+<tr class="b"><td><strong><a href="#includes">includes</a>
+</strong></td>
+<td><code>String</code></td>
+<td><code>-</code></td>
+<td>GroupIDs of artifacts to be included. 
+
+<p></p>
+Coma separated list of included artifacts GroupIDs. </td>
+</tr>
+<tr class="a"><td><strong><a href="#localRepository">localRepository</a>
 </strong></td>
 <td><code>ArtifactRepository</code></td>
 <td><code>-</code></td>
 <td>Local Maven repository. </td>
 </tr>
-<tr class="a"><td><strong><a href="#project">project</a>
+<tr class="b"><td><strong><a href="#project">project</a>
 </strong></td>
 <td><code>MavenProject</code></td>
 <td><code>-</code></td>
 <td>Maven Project. Default value: ${project} </td>
 </tr>
-<tr class="b"><td><strong><a href="#suppressedScopes">suppressedScopes</a>
+<tr class="a"><td><strong><a href="#suppressedScopes">suppressedScopes</a>
 </strong></td>
 <td><code>String</code></td>
 <td><code>-</code></td>
@@ -225,15 +236,15 @@ Scopes that are not supposed to be shown on graph as edge
 labels. 
 
 <p></p>
-</td>
+ Default value is: <code>compile</code>.</td>
 </tr>
-<tr class="a"><td><strong><a href="#vertexFullLabel">vertexFullLabel</a>
+<tr class="b"><td><strong><a href="#vertexFullLabel">vertexFullLabel</a>
 </strong></td>
 <td><code>boolean</code></td>
 <td><code>-</code></td>
 <td>Should vertex name be full artifact ID. Default value is: <code>false</code>.</td>
 </tr>
-<tr class="b"><td><strong><a href="#width">width</a>
+<tr class="a"><td><strong><a href="#width">width</a>
 </strong></td>
 <td><code>int</code></td>
 <td><code>-</code></td>
@@ -245,8 +256,10 @@ labels.
 Parameter Details</h3>
 <p><strong><a name="excludes">excludes</a>
 :</strong></p>
-<p>Artifacts to be excluded. Regular expressions matching the full
-artifact designation.</p>
+<p>IDs of artifact to be excluded. 
+
+<p></p>
+Coma separated list of excluded artifacts IDs.</p>
 <ul><li><strong>Type</strong>: <code>java.lang.String</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${excludes}</code></li>
@@ -259,6 +272,17 @@ artifact designation.</p>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${height}</code></li>
 <li><strong>Default</strong>: <code>1200</code></li>
+</ul>
+<hr />
+<p><strong><a name="includes">includes</a>
+:</strong></p>
+<p>GroupIDs of artifacts to be included. 
+
+<p></p>
+Coma separated list of included artifacts GroupIDs.</p>
+<ul><li><strong>Type</strong>: <code>java.lang.String</code></li>
+<li><strong>Required</strong>: <code>No</code></li>
+<li><strong>Expression</strong>: <code>${includes}</code></li>
 </ul>
 <hr />
 <p><strong><a name="localRepository">localRepository</a>
@@ -290,6 +314,7 @@ labels.
 <ul><li><strong>Type</strong>: <code>java.lang.String</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${suppressedScopes}</code></li>
+<li><strong>Default</strong>: <code>compile</code></li>
 </ul>
 <hr />
 <p><strong><a name="vertexFullLabel">vertexFullLabel</a>
