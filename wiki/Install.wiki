@@ -1,0 +1,82 @@
+#summary Installation guide.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+This page describes how to install maven-overview-plugin.
+
+
+= Details =
+
+Maven-overview-plugin is available from our [http://maven-overview-plugin.googlecode.com/svn/release-repository/ release repository].
+
+You need to tell maven about maven-overview-plugin repository location. Add this to your pom.xml file:
+{{{
+<project>
+  ...
+  <pluginRepositories>
+    ...
+    <pluginRepository>
+      <id>Maven Overview Plugin - Release Repository</id>
+      <url>http://maven-overview-plugin.googlecode.com/svn/release-repository</url>
+      <snapshots><enabled>false</enabled></snapshots>
+      <releases><enabled>true</enabled></releases>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
+}}}
+
+Then you need to reference plugin in your pom.xml:
+{{{
+<project>
+  ...
+  <build>
+    ...
+    <!-- To use the plugin goals in your POM or parent POM -->
+    <plugins>
+      <plugin>
+        <groupId>com.agilejava.maven.plugins<groupId>
+        <artifactId>maven-overview-plugin<artifactId>
+        <version>1.2<version>
+      </plugin>
+      ...
+    </plugins>
+  </build>
+</project>
+}}}
+
+Now you can execute it from command line:
+{{{
+mvn com.agilejava.maven.plugins:maven-overview-plugin:overview
+}}}
+Or if you add to your setting.xml:
+{{{
+<settings>
+  ...
+  <pluginGroups>
+    <pluginGroup>com.agilejava.maven.plugins</pluginGroup>
+  </pluginGroups>
+</settings>
+}}}
+Than you can execute plugin by:
+{{{
+mvn overview:overview
+}}}
+
+To configure plugin as report add this to your pom.xml file:
+{{{
+<project>
+  ...
+  <!-- To use the report goals in your POM or parent POM -->
+  <reporting>
+    <plugins>
+      ...
+      <plugin>
+        <groupId>com.agilejava.maven.plugins<groupId>
+        <artifactId>maven-overview-plugin<artifactId>
+        <version>1.2<version>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>
+}}}
