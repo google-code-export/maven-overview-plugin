@@ -1,10 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.agilejava.maven.plugins.overview</groupId>
   <artifactId>maven-archetype-overview-report</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Archetype - overview-report</name>
   <description>
     Archetype to create Maven-Overview-Plugin (Reporting mode) enabled project.
@@ -27,9 +25,9 @@
     <name>Agile Java</name>
   </organization>
   <scm>
-    <connection>scm:svn:http://maven-overview-plugin.googlecode.com/svn/overview-report/trunk</connection>
-    <developerConnection>scm:svn:https://maven-overview-plugin.googlecode.com/svn/overview-report/trunk</developerConnection>
-    <url>http://code.google.com/p/maven-overview-plugin/source/browse</url>
+    <connection>scm:svn:http://maven-overview-plugin.googlecode.com/svn/overview-report/tags/maven-archetype-overview-report-1.0</connection>
+    <developerConnection>scm:svn:https://maven-overview-plugin.googlecode.com/svn/overview-report/tags/maven-archetype-overview-report-1.0</developerConnection>
+    <url>http://code.google.com/p/maven-overview-plugin/source/browse/tags/maven-archetype-overview-report-1.0</url>
   </scm>
   <distributionManagement>
     <snapshotRepository>
