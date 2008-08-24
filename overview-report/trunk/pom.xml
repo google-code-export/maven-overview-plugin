@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.agilejava.maven.plugins.overview</groupId>
   <artifactId>maven-archetype-overview-report</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Archetype - overview-report</name>
   <description>
     Archetype to create Maven-Overview-Plugin (Reporting mode) enabled project.
@@ -25,9 +25,9 @@
     <name>Agile Java</name>
   </organization>
   <scm>
-    <connection>scm:svn:http://maven-overview-plugin.googlecode.com/svn/overview-report/tags/maven-archetype-overview-report-1.0</connection>
-    <developerConnection>scm:svn:https://maven-overview-plugin.googlecode.com/svn/overview-report/tags/maven-archetype-overview-report-1.0</developerConnection>
-    <url>http://code.google.com/p/maven-overview-plugin/source/browse/tags/maven-archetype-overview-report-1.0</url>
+    <connection>scm:svn:http://maven-overview-plugin.googlecode.com/svn/overview-report/trunk</connection>
+    <developerConnection>scm:svn:https://maven-overview-plugin.googlecode.com/svn/overview-report/trunk</developerConnection>
+    <url>http://code.google.com/p/maven-overview-plugin/source/browse</url>
   </scm>
   <distributionManagement>
     <snapshotRepository>
