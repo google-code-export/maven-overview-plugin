@@ -1,0 +1,65 @@
+		---
+		Maven Overview Plugin - Usage
+		---
+		Hubert Iwaniuk
+		---
+		15 Jun 2008
+		---
+
+Installing
+
+  Add following to your pom.xml
+
++---+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>KungFoo M2 Release Repository</id>
+      <url>svn:https://kungfoo-m2.googlecode.com/svn/release-repo</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
++---+
+
+  Once
+  <a href="http://code.google.com/p/maven-overview-plugin/issues/detail?id=14">#14</a>
+  is solved plugin will be available in Maven Central Repository.
+
+Usage
+
+* As report
+
+  Add following to you pom.xml
+
++---+
+  <reporting>
+    <plugins>
+      ...
+      <plugin>
+        <groupId>com.googlecode.maven-overview-plugin</groupId>
+        <artifactId>maven-overview-plugin</artifactId>
+        <version>1.3</version>
+      </plugin>
+    </plugins>
+  </reporting>
++---+
+
+* Standalone
+
+  Execute following
+
++---+
+mvn com.googlecode.maven-overview-plugin:maven-overview-plugin:1.3:overview
++---+
+  Overview graph will be generated in target/site/images/overview.png
+
+* Legend
+
+  The color indicates the dependency distance.
+  The artifact for which the diagram is created is rendered as a red dot.
+  Direct dependencies are rendered orange.
+  Brightness will increase if you start moving to the edges of the dependency graph.
