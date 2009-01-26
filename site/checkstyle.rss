@@ -6,7 +6,7 @@
     <link>http://code.google.com/p/maven-overview-plugin/</link>
     <description>Maven Overview Plugin - Checkstyle report</description>
     <language>en-us</language>
-    <copyright>&#169;2008 Agile Java</copyright>
+    <copyright>&#169;2008 - 2009 Agile Java</copyright>
     <item>
       <title>File: 14,
              Errors: 221,
@@ -29,20 +29,6 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.package.html">com/agilejava/maven/plugins/overview/render/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexPaintFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexPaintFunction.java</a>
                 </td>
                 <td>
@@ -53,6 +39,20 @@
                 </td>
                 <td>
                   9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.package.html">com/agilejava/maven/plugins/overview/render/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                           <tr>
