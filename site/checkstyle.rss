@@ -29,7 +29,7 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexPaintFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexPaintFunction.java</a>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.ArtifactVertex.java">com/agilejava/maven/plugins/overview/vo/ArtifactVertex.java</a>
                 </td>
                 <td>
                   0
@@ -38,12 +38,110 @@
                   0
                 </td>
                 <td>
-                  9
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.package.html">com/agilejava/maven/plugins/overview/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexShapeFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexShapeFunction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.DependencyExtractor.java">com/agilejava/maven/plugins/overview/logic/DependencyExtractor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.package.html">com/agilejava/maven/plugins/overview/vo/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexStringer.java">com/agilejava/maven/plugins/overview/render/MyVertexStringer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
                 </td>
               </tr>
                           <tr>
                 <td>
                   <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.package.html">com/agilejava/maven/plugins/overview/render/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.DependencyEdge.java">com/agilejava/maven/plugins/overview/vo/DependencyEdge.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.package.html">com/agilejava/maven/plugins/overview/logic/package.html</a>
                 </td>
                 <td>
                   0
@@ -71,48 +169,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.DependencyEdge.java">com/agilejava/maven/plugins/overview/vo/DependencyEdge.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.DependencyExtractor.java">com/agilejava/maven/plugins/overview/logic/DependencyExtractor.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexShapeFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexShapeFunction.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.MavenOverviewMojo.java">com/agilejava/maven/plugins/overview/MavenOverviewMojo.java</a>
                 </td>
                 <td>
@@ -127,7 +183,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.package.html">com/agilejava/maven/plugins/overview/vo/package.html</a>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexPaintFunction.java">com/agilejava/maven/plugins/overview/render/MyVertexPaintFunction.java</a>
                 </td>
                 <td>
                   0
@@ -136,7 +192,7 @@
                   0
                 </td>
                 <td>
-                  0
+                  9
                 </td>
               </tr>
                           <tr>
@@ -155,48 +211,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.package.html">com/agilejava/maven/plugins/overview/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.vo.ArtifactVertex.java">com/agilejava/maven/plugins/overview/vo/ArtifactVertex.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  26
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.render.MyVertexStringer.java">com/agilejava/maven/plugins/overview/render/MyVertexStringer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.MyArtifactFilter.java">com/agilejava/maven/plugins/overview/logic/MyArtifactFilter.java</a>
                 </td>
                 <td>
@@ -207,20 +221,6 @@
                 </td>
                 <td>
                   19
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.agilejava.maven.plugins.overview.logic.package.html">com/agilejava/maven/plugins/overview/logic/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
                 </td>
               </tr>
                       </tbody>
