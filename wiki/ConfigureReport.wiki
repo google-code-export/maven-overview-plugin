@@ -8,7 +8,7 @@ Once you finished [http://maven-overview-plugin.googlecode.com/svn/site/plugin-i
     <reporting>
         ...
             <plugin>
-                <groupId>com.agilejava.maven.plugins</groupId>
+                <groupId>com.googlecode.maven-overview-plugin</groupId>
                 <artifactId>maven-overview-plugin</artifactId>
                 <configuration>
                     <width>800</width>
