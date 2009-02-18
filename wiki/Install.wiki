@@ -8,29 +8,9 @@ This page describes how to install maven-overview-plugin.
 
 = Details =
 
-Maven-overview-plugin is available from our [http://maven-overview-plugin.googlecode.com/svn/release-repository/ release repository].
+maven-overview-plugin is available from [http://repo1.maven.org/maven2/ Maven Central Repository].
 
-You need to tell maven about maven-overview-plugin repository location. Add this to your pom.xml file:
-{{{
-<project>
-  ...
-  <pluginRepositories>
-    ...
-    <pluginRepository>
-      <id>KungFoo M2 Release Repository</id>
-      <url>svn:https://kungfoo-m2.googlecode.com/svn/release-repo</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
-</project>
-}}}
-
-Then you need to reference plugin in your pom.xml:
+You need to reference plugin in your pom.xml:
 {{{
 <project>
   ...
