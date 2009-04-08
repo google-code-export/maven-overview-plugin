@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Maven Overview Plugin - Maven Overview Plugin - Report configuration example</title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+          <meta name="author" content="Hubert Iwaniuk" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                    <span id="bannerLeft">
+    
+            Maven Overview Plugin
+    
+            </span>
+                    <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+    
+            <div class="xleft">
+        Last Published: 2009-04-08
+                      </div>
+            <div class="xright">            <a href="http://github.com/neotyk/maven-overview-plugin/tree/master" class="externalLink">Source Tree</a>
+            |
+                <a href="../">Maven Overview Plugin</a>
+            |
+                <a href="../../kungfoo-m2/">KungFoo Repo</a>
+            |
+                <a href="http://maven.apache.org/" class="externalLink">Maven 2</a>
+            
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+    
+                   <h5>Overview</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../index.html">Introduction</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../plugin-info.html">Goals</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../usage.html">Usage</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../faq.html">FAQ</a>
+          </li>
+          </ul>
+              <h5>Examples</h5>
+            <ul>
+              
+    <li class="none">
+              <strong>Report</strong>
+        </li>
+              
+    <li class="none">
+                    <a href="../examples/command.html">CommandLine</a>
+          </li>
+          </ul>
+              <h5>Project Documentation</h5>
+            <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+                    <a href="../project-info.html">Project Information</a>
+                </li>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+                    <a href="../project-reports.html">Project Reports</a>
+                </li>
+          </ul>
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Report configuration example</h2>
+<p>Here is an example how <a href="http://code.google.com/p/maven-overview-plugin" class="externalLink">Maven Overview Plugin</a>
+ uses itself.</p>
+<div class="source"><pre>&lt;project&gt;
+ ...
+ &lt;reporting&gt;
+  &lt;plugins&gt;
+   ...
+   &lt;plugin&gt;
+    &lt;groupId&gt;com.googlecode.maven-overview-plugin&lt;/groupId&gt;
+    &lt;artifactId&gt;maven-overview-plugin&lt;/artifactId&gt;
+    &lt;configuration&gt;
+     &lt;width&gt;500&lt;/width&gt;
+     &lt;height&gt;500&lt;/height&gt;
+     &lt;includes&gt;com.googlecode.maven-overview-plugin, org.apache.maven.reporting, org.apache.maven.shared, jung, org.apache.maven.doxia, commons-collections, colt, concurrent&lt;/includes&gt;
+     &lt;exclusions&gt;
+      &lt;exclusion&gt;
+       &lt;scope&gt;test&lt;/scope&gt;
+      &lt;/exclusion&gt;
+     &lt;/exclusions&gt;
+     &lt;maxDepth&gt;2&lt;/maxDepth&gt;
+     &lt;scopes&gt;
+       &lt;scope&gt;compile&lt;/scope&gt;
+       &lt;scope&gt;runtime&lt;/scope&gt;
+     &lt;/scopes&gt;
+    &lt;/configuration&gt;
+   &lt;/plugin&gt;
+  &lt;/plugins&gt;
+ &lt;/reporting&gt;
+&lt;/project&gt;</pre>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2008-2009
+    
+          Agile Java
+          
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

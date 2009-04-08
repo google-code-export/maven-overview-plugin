@@ -42,15 +42,15 @@
   
     
             <div class="xleft">
-        Last Published: 2009-01-27
+        Last Published: 2009-04-08
                       </div>
-            <div class="xright">            <a href="http://maven.apache.org/" class="externalLink">Maven 2</a>
-            |
-                <a href="../kungfoo-m2/">KungFoo Repo</a>
+            <div class="xright">            <a href="http://github.com/neotyk/maven-overview-plugin/tree/master" class="externalLink">Source Tree</a>
             |
                 <a href="">Maven Overview Plugin</a>
             |
-                <a href="http://github.com/neotyk/maven-overview-plugin/tree/master" class="externalLink">Source Tree</a>
+                <a href="../kungfoo-m2/">KungFoo Repo</a>
+            |
+                <a href="http://maven.apache.org/" class="externalLink">Maven 2</a>
             
   
 
@@ -97,11 +97,11 @@
             <ul>
               
     <li class="none">
-                    <a href="examples/command.html">CommandLine</a>
+                    <a href="examples/report.html">Report</a>
           </li>
               
     <li class="none">
-                    <a href="examples/report.html">Report</a>
+                    <a href="examples/command.html">CommandLine</a>
           </li>
           </ul>
               <h5>Project Documentation</h5>
@@ -154,10 +154,6 @@
       
             
       
-            
-      
-            
-      
               
         <li class="collapsed">
                     <a href="project-reports.html">Project Reports</a>
@@ -182,7 +178,7 @@
 overview:overview</h2>
 <p><strong>Note</strong>: This Mojo should be used as a Maven report.</p>
 <p><strong>Full name</strong>:</p>
-<p>com.googlecode.maven-overview-plugin:maven-overview-plugin:1.4-SNAPSHOT:overview</p>
+<p>com.googlecode.maven-overview-plugin:maven-overview-plugin:1.5-SNAPSHOT:overview</p>
 <p><strong>Description</strong>:</p>
 <p>Maven Overview Plugin. 
 
@@ -199,14 +195,27 @@ Optional Parameters</h3>
 <th>Since</th>
 <th>Description</th>
 </tr>
-<tr class="b"><td><strong><a href="#excludes">excludes</a>
+<tr class="b"><td><strong><a href="#exclusions">exclusions</a>
 </strong></td>
-<td><code>String</code></td>
+<td><code>List</code></td>
 <td><code>-</code></td>
-<td>IDs of artifact to be excluded. 
+<td>Exclusions configuration. 
 
 <p></p>
-Coma separated list of excluded artifacts IDs. </td>
+<pre>
+&lt;exclusions&gt;
+&lt;exclusion&gt; &lt;!-- all info provided, all have to match to exclude --&gt;
+&lt;groupId&gt;groupRegExp&lt;/groupId&gt;
+&lt;artifactId&gt;artivaftRegExp&lt;/artifactId&gt;
+&lt;packaging&gt;packaginRegExp&lt;/packaging&gt;
+&lt;version&gt;versionRegExp&lt;/version&gt;
+&lt;scope&gt;scopeRegExp&lt;/scope&gt;
+&lt;/exclusion&gt;
+&lt;exclusion&gt; &lt;!-- only one provided --&gt;
+&lt;scope&gt;scopeRegExp&lt;/scope&gt;
+&lt;/exclusion&gt;
+&lt;/exclusions&gt;
+</pre></td>
 </tr>
 <tr class="a"><td><strong><a href="#height">height</a>
 </strong></td>
@@ -229,11 +238,30 @@ Coma separated list of included artifacts GroupIDs. </td>
 <td><code>-</code></td>
 <td>Local Maven repository. </td>
 </tr>
-<tr class="b"><td><strong><a href="#project">project</a>
+<tr class="b"><td><strong><a href="#maxDepth">maxDepth</a>
+</strong></td>
+<td><code>int</code></td>
+<td><code>-</code></td>
+<td>Maximum depth to pursue transitive dependencies 
+
+<p></p>
+</td>
+</tr>
+<tr class="a"><td><strong><a href="#project">project</a>
 </strong></td>
 <td><code>MavenProject</code></td>
 <td><code>-</code></td>
 <td>Maven Project. Default value: ${project} </td>
+</tr>
+<tr class="b"><td><strong><a href="#scopes">scopes</a>
+</strong></td>
+<td><code>String[]</code></td>
+<td><code>-</code></td>
+<td>If specified, only the specified scopes are pursued when traversing
+the dependency tree 
+
+<p></p>
+</td>
 </tr>
 <tr class="a"><td><strong><a href="#suppressedScopes">suppressedScopes</a>
 </strong></td>
@@ -264,15 +292,27 @@ labels.
 </div>
 <div class="section"><h3><a name="Parameter_Details"></a>
 Parameter Details</h3>
-<p><strong><a name="excludes">excludes</a>
+<p><strong><a name="exclusions">exclusions</a>
 :</strong></p>
-<p>IDs of artifact to be excluded. 
+<p>Exclusions configuration. 
 
 <p></p>
-Coma separated list of excluded artifacts IDs.</p>
-<ul><li><strong>Type</strong>: <code>java.lang.String</code></li>
+<pre>
+&lt;exclusions&gt;
+&lt;exclusion&gt; &lt;!-- all info provided, all have to match to exclude --&gt;
+&lt;groupId&gt;groupRegExp&lt;/groupId&gt;
+&lt;artifactId&gt;artivaftRegExp&lt;/artifactId&gt;
+&lt;packaging&gt;packaginRegExp&lt;/packaging&gt;
+&lt;version&gt;versionRegExp&lt;/version&gt;
+&lt;scope&gt;scopeRegExp&lt;/scope&gt;
+&lt;/exclusion&gt;
+&lt;exclusion&gt; &lt;!-- only one provided --&gt;
+&lt;scope&gt;scopeRegExp&lt;/scope&gt;
+&lt;/exclusion&gt;
+&lt;/exclusions&gt;
+</pre></p>
+<ul><li><strong>Type</strong>: <code>java.util.List</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
-<li><strong>Expression</strong>: <code>${excludes}</code></li>
 </ul>
 <hr />
 <p><strong><a name="height">height</a>
@@ -303,12 +343,35 @@ Coma separated list of included artifacts GroupIDs.</p>
 <li><strong>Expression</strong>: <code>${localRepository}</code></li>
 </ul>
 <hr />
+<p><strong><a name="maxDepth">maxDepth</a>
+:</strong></p>
+<p>Maximum depth to pursue transitive dependencies 
+
+<p></p>
+</p>
+<ul><li><strong>Type</strong>: <code>int</code></li>
+<li><strong>Required</strong>: <code>No</code></li>
+<li><strong>Expression</strong>: <code>${maxDepth}</code></li>
+</ul>
+<hr />
 <p><strong><a name="project">project</a>
 :</strong></p>
 <p>Maven Project. Default value: ${project}</p>
 <ul><li><strong>Type</strong>: <code>org.apache.maven.project.MavenProject</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${project}</code></li>
+</ul>
+<hr />
+<p><strong><a name="scopes">scopes</a>
+:</strong></p>
+<p>If specified, only the specified scopes are pursued when traversing
+the dependency tree 
+
+<p></p>
+</p>
+<ul><li><strong>Type</strong>: <code>java.lang.String[]</code></li>
+<li><strong>Required</strong>: <code>No</code></li>
+<li><strong>Expression</strong>: <code>${scopes}</code></li>
 </ul>
 <hr />
 <p><strong><a name="suppressedScopes">suppressedScopes</a>
