@@ -1,4 +1,4 @@
-com.agilejava.maven.plugins.overview.logic
-com.agilejava.maven.plugins.overview.vo
-com.agilejava.maven.plugins.overview.render
-com.agilejava.maven.plugins.overview
+com.googlecode.maven.plugins.overview.logic
+com.googlecode.maven.plugins.overview.vo
+com.googlecode.maven.plugins.overview.render
+com.googlecode.maven.plugins.overview
