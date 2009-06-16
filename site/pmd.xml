@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.2" timestamp="2009-04-08T12:52:13.517">
-<file name="/home/huberti/Devel/Source/maven-overview-plugin/src/main/java/com/agilejava/maven/plugins/overview/logic/MyArtifactFilter.java">
-<violation beginline="93" endline="93" begincolumn="17" endcolumn="61" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="com.agilejava.maven.plugins.overview.logic" class="MyArtifactFilter" method="isIncluded" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+<pmd version="4.2.2" timestamp="2009-06-16T15:41:36.498">
+<file name="/home/huberti/Devel/Source/mop-1.5/src/main/java/com/googlecode/maven/plugins/overview/logic/MyArtifactFilter.java">
+<violation beginline="93" endline="93" begincolumn="17" endcolumn="61" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="com.googlecode.maven.plugins.overview.logic" class="MyArtifactFilter" method="isIncluded" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
 </violation>
 </file>

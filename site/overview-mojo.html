@@ -42,7 +42,7 @@
   
     
             <div class="xleft">
-        Last Published: 2009-04-08
+        Last Published: 2009-06-16
                       </div>
             <div class="xright">            <a href="http://github.com/neotyk/maven-overview-plugin/tree/master" class="externalLink">Source Tree</a>
             |
@@ -174,11 +174,10 @@
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <div class="section"><h2><a name="overview:overview"></a>
-overview:overview</h2>
+        <div class="section"><h2><a name="overview:overview"></a>overview:overview</h2>
 <p><strong>Note</strong>: This Mojo should be used as a Maven report.</p>
 <p><strong>Full name</strong>:</p>
-<p>com.googlecode.maven-overview-plugin:maven-overview-plugin:1.5-SNAPSHOT:overview</p>
+<p>com.googlecode.maven-overview-plugin:maven-overview-plugin:1.6-SNAPSHOT:overview</p>
 <p><strong>Description</strong>:</p>
 <p>Maven Overview Plugin. 
 
@@ -188,15 +187,13 @@ Generates overview graph of project dependencies.</p>
 <ul><li>Requires a Maven 2.0 project to be executed.</li>
 <li>Binds by default to the lifecycle phase: <code>site</code>.</li>
 </ul>
-<div class="section"><h3><a name="Optional_Parameters"></a>
-Optional Parameters</h3>
+<div class="section"><h3><a name="Optional_Parameters"></a>Optional Parameters</h3>
 <table class="bodyTable"><tr class="a"><th>Name</th>
 <th>Type</th>
 <th>Since</th>
 <th>Description</th>
 </tr>
-<tr class="b"><td><strong><a href="#exclusions">exclusions</a>
-</strong></td>
+<tr class="b"><td><strong><a href="#exclusions">exclusions</a></strong></td>
 <td><code>List</code></td>
 <td><code>-</code></td>
 <td>Exclusions configuration. 
@@ -217,14 +214,12 @@ Optional Parameters</h3>
 &lt;/exclusions&gt;
 </pre></td>
 </tr>
-<tr class="a"><td><strong><a href="#height">height</a>
-</strong></td>
+<tr class="a"><td><strong><a href="#height">height</a></strong></td>
 <td><code>int</code></td>
 <td><code>-</code></td>
 <td>Rendered graph height in pixels. Default value is: <code>1200</code>.</td>
 </tr>
-<tr class="b"><td><strong><a href="#includes">includes</a>
-</strong></td>
+<tr class="b"><td><strong><a href="#includes">includes</a></strong></td>
 <td><code>String</code></td>
 <td><code>-</code></td>
 <td>GroupIDs of artifacts to be included. 
@@ -232,14 +227,12 @@ Optional Parameters</h3>
 <p></p>
 Coma separated list of included artifacts GroupIDs. </td>
 </tr>
-<tr class="a"><td><strong><a href="#localRepository">localRepository</a>
-</strong></td>
+<tr class="a"><td><strong><a href="#localRepository">localRepository</a></strong></td>
 <td><code>ArtifactRepository</code></td>
 <td><code>-</code></td>
 <td>Local Maven repository. </td>
 </tr>
-<tr class="b"><td><strong><a href="#maxDepth">maxDepth</a>
-</strong></td>
+<tr class="b"><td><strong><a href="#maxDepth">maxDepth</a></strong></td>
 <td><code>int</code></td>
 <td><code>-</code></td>
 <td>Maximum depth to pursue transitive dependencies 
@@ -247,14 +240,12 @@ Coma separated list of included artifacts GroupIDs. </td>
 <p></p>
 </td>
 </tr>
-<tr class="a"><td><strong><a href="#project">project</a>
-</strong></td>
+<tr class="a"><td><strong><a href="#project">project</a></strong></td>
 <td><code>MavenProject</code></td>
 <td><code>-</code></td>
 <td>Maven Project. Default value: ${project} </td>
 </tr>
-<tr class="b"><td><strong><a href="#scopes">scopes</a>
-</strong></td>
+<tr class="b"><td><strong><a href="#scopes">scopes</a></strong></td>
 <td><code>String[]</code></td>
 <td><code>-</code></td>
 <td>If specified, only the specified scopes are pursued when traversing
@@ -263,8 +254,7 @@ the dependency tree
 <p></p>
 </td>
 </tr>
-<tr class="a"><td><strong><a href="#suppressedScopes">suppressedScopes</a>
-</strong></td>
+<tr class="a"><td><strong><a href="#suppressedScopes">suppressedScopes</a></strong></td>
 <td><code>String</code></td>
 <td><code>-</code></td>
 <td>Suppressed scopes. 
@@ -276,24 +266,20 @@ labels.
 <p></p>
  Default value is: <code>compile</code>.</td>
 </tr>
-<tr class="b"><td><strong><a href="#vertexFullLabel">vertexFullLabel</a>
-</strong></td>
+<tr class="b"><td><strong><a href="#vertexFullLabel">vertexFullLabel</a></strong></td>
 <td><code>boolean</code></td>
 <td><code>-</code></td>
 <td>Should vertex name be full artifact ID. Default value is: <code>false</code>.</td>
 </tr>
-<tr class="a"><td><strong><a href="#width">width</a>
-</strong></td>
+<tr class="a"><td><strong><a href="#width">width</a></strong></td>
 <td><code>int</code></td>
 <td><code>-</code></td>
 <td>Rendered graph width in pixels. Default value is: <code>1200</code>.</td>
 </tr>
 </table>
 </div>
-<div class="section"><h3><a name="Parameter_Details"></a>
-Parameter Details</h3>
-<p><strong><a name="exclusions">exclusions</a>
-:</strong></p>
+<div class="section"><h3><a name="Parameter_Details"></a>Parameter Details</h3>
+<p><strong><a name="exclusions">exclusions</a>:</strong></p>
 <p>Exclusions configuration. 
 
 <p></p>
@@ -315,8 +301,7 @@ Parameter Details</h3>
 <li><strong>Required</strong>: <code>No</code></li>
 </ul>
 <hr />
-<p><strong><a name="height">height</a>
-:</strong></p>
+<p><strong><a name="height">height</a>:</strong></p>
 <p>Rendered graph height in pixels.</p>
 <ul><li><strong>Type</strong>: <code>int</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
@@ -324,8 +309,7 @@ Parameter Details</h3>
 <li><strong>Default</strong>: <code>1200</code></li>
 </ul>
 <hr />
-<p><strong><a name="includes">includes</a>
-:</strong></p>
+<p><strong><a name="includes">includes</a>:</strong></p>
 <p>GroupIDs of artifacts to be included. 
 
 <p></p>
@@ -335,16 +319,14 @@ Coma separated list of included artifacts GroupIDs.</p>
 <li><strong>Expression</strong>: <code>${includes}</code></li>
 </ul>
 <hr />
-<p><strong><a name="localRepository">localRepository</a>
-:</strong></p>
+<p><strong><a name="localRepository">localRepository</a>:</strong></p>
 <p>Local Maven repository.</p>
 <ul><li><strong>Type</strong>: <code>org.apache.maven.artifact.repository.ArtifactRepository</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${localRepository}</code></li>
 </ul>
 <hr />
-<p><strong><a name="maxDepth">maxDepth</a>
-:</strong></p>
+<p><strong><a name="maxDepth">maxDepth</a>:</strong></p>
 <p>Maximum depth to pursue transitive dependencies 
 
 <p></p>
@@ -354,16 +336,14 @@ Coma separated list of included artifacts GroupIDs.</p>
 <li><strong>Expression</strong>: <code>${maxDepth}</code></li>
 </ul>
 <hr />
-<p><strong><a name="project">project</a>
-:</strong></p>
+<p><strong><a name="project">project</a>:</strong></p>
 <p>Maven Project. Default value: ${project}</p>
 <ul><li><strong>Type</strong>: <code>org.apache.maven.project.MavenProject</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
 <li><strong>Expression</strong>: <code>${project}</code></li>
 </ul>
 <hr />
-<p><strong><a name="scopes">scopes</a>
-:</strong></p>
+<p><strong><a name="scopes">scopes</a>:</strong></p>
 <p>If specified, only the specified scopes are pursued when traversing
 the dependency tree 
 
@@ -374,8 +354,7 @@ the dependency tree
 <li><strong>Expression</strong>: <code>${scopes}</code></li>
 </ul>
 <hr />
-<p><strong><a name="suppressedScopes">suppressedScopes</a>
-:</strong></p>
+<p><strong><a name="suppressedScopes">suppressedScopes</a>:</strong></p>
 <p>Suppressed scopes. 
 
 <p></p>
@@ -390,8 +369,7 @@ labels.
 <li><strong>Default</strong>: <code>compile</code></li>
 </ul>
 <hr />
-<p><strong><a name="vertexFullLabel">vertexFullLabel</a>
-:</strong></p>
+<p><strong><a name="vertexFullLabel">vertexFullLabel</a>:</strong></p>
 <p>Should vertex name be full artifact ID.</p>
 <ul><li><strong>Type</strong>: <code>boolean</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
@@ -399,8 +377,7 @@ labels.
 <li><strong>Default</strong>: <code>false</code></li>
 </ul>
 <hr />
-<p><strong><a name="width">width</a>
-:</strong></p>
+<p><strong><a name="width">width</a>:</strong></p>
 <p>Rendered graph width in pixels.</p>
 <ul><li><strong>Type</strong>: <code>int</code></li>
 <li><strong>Required</strong>: <code>No</code></li>
