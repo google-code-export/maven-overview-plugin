@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.2" timestamp="2009-06-16T16:04:59.910">
-<file name="/home/huberti/Devel/Source/neotyk-maven-overview-plugin-8af4f74d32c7d5db8794db514a5ae757ae642c52/src/main/java/com/googlecode/maven/plugins/overview/logic/MyArtifactFilter.java">
+<pmd version="4.2.2" timestamp="2009-07-08T00:11:48.251">
+<file name="/home/hubert/Source/oss/write/maven-overview-plugin/src/main/java/com/googlecode/maven/plugins/overview/logic/MyArtifactFilter.java">
 <violation beginline="93" endline="93" begincolumn="17" endcolumn="61" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="com.googlecode.maven.plugins.overview.logic" class="MyArtifactFilter" method="isIncluded" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
 These nested if statements could be combined
 </violation>

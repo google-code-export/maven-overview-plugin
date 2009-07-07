@@ -9,7 +9,7 @@
     <copyright>&#169;2008 - 2009 Agile Java</copyright>
     <item>
       <title>File: 15,
-             Errors: 395,
+             Errors: 407,
              Warnings: 0,
              Infos: 0
       </title>
@@ -178,7 +178,7 @@
                   0
                 </td>
                 <td>
-                  7
+                  16
                 </td>
               </tr>
                           <tr>
@@ -211,20 +211,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.googlecode.maven.plugins.overview.MavenOverviewMojo.java">com/googlecode/maven/plugins/overview/MavenOverviewMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  61
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.googlecode.maven.plugins.overview.vo.package.html">com/googlecode/maven/plugins/overview/vo/package.html</a>
                 </td>
                 <td>
@@ -235,6 +221,20 @@
                 </td>
                 <td>
                   0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://code.google.com/p/maven-overview-plugin//checkstyle.html#com.googlecode.maven.plugins.overview.MavenOverviewMojo.java">com/googlecode/maven/plugins/overview/MavenOverviewMojo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  64
                 </td>
               </tr>
                       </tbody>
