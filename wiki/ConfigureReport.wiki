@@ -3,7 +3,7 @@
 
 = Configuring report =
 
-Once you finished [http://maven-overview-plugin.googlecode.com/svn/site/plugin-info.html installing] plug-in add this to your pom.xml
+Add this to your pom.xml
 {{{
     <reporting>
         ...
@@ -19,3 +19,5 @@ Once you finished [http://maven-overview-plugin.googlecode.com/svn/site/plugin-i
         ...
     </reporting>
 }}}
+
+For detailed configuration options consult [http://maven-overview-plugin.googlecode.com/svn/site/overview-mojo.html overview:overview].
