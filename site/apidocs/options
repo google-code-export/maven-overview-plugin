@@ -12,8 +12,8 @@
 -d
 '/home/hubert/Source/oss/write/maven-overview-plugin/target/site/apidocs'
 -doctitle
-'Maven Overview Plugin 1.6 API'
+'Maven Overview Plugin 1.7-SNAPSHOT API'
 -use
 -version
 -windowtitle
-'Maven Overview Plugin 1.6 API'
+'Maven Overview Plugin 1.7-SNAPSHOT API'
